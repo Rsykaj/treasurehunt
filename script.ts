@@ -46,7 +46,3 @@ function checkDistance(event:MouseEvent){
 
     oldDistance = distance
 }
-
-
-
-// element offset width
