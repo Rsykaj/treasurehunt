@@ -13,7 +13,7 @@ let treasureImage = document.getElementById("treasure");
 init();
 function init() {
     treasure = new Treasure;
-    // treasureImage.style.display = "none"
+    treasureImage.style.display = "none";
     treasureImage.style.left = treasure.x.toString() + "px";
     treasureImage.style.top = treasure.y.toString() + "px";
     tries = 0;
